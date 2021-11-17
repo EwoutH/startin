@@ -15,3 +15,5 @@ jobs:
         toolchain: stable
     - run: cargo fix --edition
     - uses: peter-evans/create-pull-request@v3
+      with:
+        path: examples
